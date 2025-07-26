@@ -1,0 +1,7 @@
+_target_: utils.llm_client.openrouter.OpenrouterAPIClient
+
+# Using llama api. See the available models at https://docs.llama-api.com/quickstart#available-models
+model: deepseek/deepseek-chat-v3-0324:free
+temperature: 1.0  # temperature for chat completion
+api_key: ${oc.env:OPENROUTER_API_KEY,null}
+base_url: https://openrouter.ai/api/v1

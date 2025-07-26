@@ -1,0 +1,4 @@
+problem_name: tsp
+problem_type: scso
+obj_type: min
+func_name: heuristics

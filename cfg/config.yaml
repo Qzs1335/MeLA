@@ -1,0 +1,28 @@
+defaults:
+  - _self_
+  - problem: acs
+  - llm_client: openai
+  # [Optional] set different clients for operators
+  - llm_client@llm_long_ref: null
+  - llm_client@llm_short_ref: null
+  - llm_client@llm_crossover: null
+  - llm_client@llm_mutation: null
+  - override hydra/output: local
+  - override hydra/job_logging: colorlog
+  - override hydra/hydra_logging: colorlog
+
+hydra:
+  job:
+    name: ${problem.problem_name}-${problem.problem_type}
+    chdir: True
+
+# The chosen algorithm
+algorithm: ele
+
+# Main GA loop parameters
+max_fe: 10
+pop_size: 4
+init_pop_size: 4
+mutation_rate: 0.5
+timeout: 1000
+diversify_init_pop: True
