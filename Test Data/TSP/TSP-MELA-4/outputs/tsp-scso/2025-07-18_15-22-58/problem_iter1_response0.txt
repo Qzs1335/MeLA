@@ -1,0 +1,17 @@
+{thought process:
+1. Current heuristic uses simple inverse distance
+2. Could incorporate logarithmic scaling for better sensitivity
+3. Add small epsilon to prevent division by zero
+4. Consider squared distances for stronger gradient
+5. Combine with exponential decay for distant nodes}
+
+```python
+import numpy as np
+def heuristics_v1(distance_matrix):
+    #EVOLVE-START
+    epsilon = 1e-10
+    log_scaled = np.log(1 + distance_matrix)
+    return np.exp(-0.5 * (distance_matrix**2)) / (log_scaled + epsilon)
+    #EVOLVE-END
+    return 1 / distance_matrix
+```

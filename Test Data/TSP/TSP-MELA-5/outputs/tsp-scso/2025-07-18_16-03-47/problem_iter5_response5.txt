@@ -1,0 +1,14 @@
+{thought process:
+1. Current version uses inverse squared distance with epsilon for stability
+2. Could benefit from adaptive non-linearity to handle varying distance scales
+3. Adding logarithmic transform before inversion improves sensitivity to small distances while maintaining stability}     
+```python
+import numpy as np 
+def heuristics_v2(distance_matrix):
+    #EVOLVE-START
+    epsilon = 1e-15
+    log_dist = np.log(distance_matrix + epsilon)
+    return 1 / (log_dist**2 + epsilon)
+    #EVOLVE-END       
+    return 1 / distance_matrix
+```

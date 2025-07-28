@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "C:\Users\22973\Desktop\meevo-main\meevo/evaluators/tsp/main.py", line 11, in <module>
+    import gpt
+  File "C:\Users\22973\Desktop\meevo-main\meevo\evaluators\tsp\gpt.py", line 7
+    return transformed / (np.median(transformed) + epsilon
+                         ^
+SyntaxError: '(' was never closed
+[0m

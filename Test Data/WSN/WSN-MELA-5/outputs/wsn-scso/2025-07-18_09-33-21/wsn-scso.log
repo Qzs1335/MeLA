@@ -1,0 +1,197 @@
+[2025-07-18 09:33:21,225][root][INFO] - Workspace: C:\Users\22973\Desktop\meevo-main\meevo\outputs\wsn-scso\2025-07-18_09-33-21
+[2025-07-18 09:33:21,225][root][INFO] - Project Root: C:\Users\22973\Desktop\meevo-main\meevo
+[2025-07-18 09:33:21,226][root][INFO] - Using LLM: deepseek-chat
+[2025-07-18 09:33:21,226][root][INFO] - Using Algorithm: ele
+[2025-07-18 09:33:23,984][root][INFO] - Problem: wsn
+[2025-07-18 09:33:23,984][root][INFO] - Function name: heuristics
+[2025-07-18 09:33:23,985][root][INFO] - Evaluating init algorithm...
+[2025-07-18 09:33:23,985][root][INFO] - Analyze the problem...
+[2025-07-18 09:33:23,985][root][INFO] - Initial Population Prompt:
+[2025-07-18 09:33:25,187][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 09:33:32,541][root][INFO] - Iteration 0: Code Run 0 successful!
+[2025-07-18 09:33:48,834][root][INFO] - Iteration 0: Average objective = 973.311051
+[2025-07-18 09:33:48,836][root][INFO] - Iteration 0: Elitist: 973.3110510671061
+[2025-07-18 09:33:48,840][root][INFO] - Iteration 0 finished...
+[2025-07-18 09:33:48,840][root][INFO] - Function Evals: 1
+[2025-07-18 09:33:48,841][root][INFO] - Validation script finished. Results are saved in C:\Users\22973\Desktop\meevo-main\meevo/codebase/iteration_0/individual_0_obj.txt.
+[2025-07-18 09:33:48,841][root][INFO] - Initial Population Prompt:
+[2025-07-18 09:33:49,276][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 09:33:49,295][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 09:33:49,298][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 09:33:49,320][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 09:33:49,334][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 09:33:49,335][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 09:33:49,341][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 09:33:49,416][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 09:33:49,419][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 09:33:49,481][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 09:33:49,657][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 09:33:49,689][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 09:33:49,724][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 09:33:49,736][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 09:33:49,765][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 09:33:49,766][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 09:33:50,074][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 09:33:50,091][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 09:33:50,143][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 09:33:50,196][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 09:34:12,964][root][INFO] - Iteration 1: Code Run 0 successful!
+[2025-07-18 09:34:15,765][root][INFO] - Iteration 1: Code Run 1 successful!
+[2025-07-18 09:34:18,622][root][INFO] - Iteration 1: Code Run 2 successful!
+[2025-07-18 09:34:21,570][root][INFO] - Iteration 1: Code Run 3 successful!
+[2025-07-18 09:34:24,778][root][INFO] - Iteration 1: Code Run 4 successful!
+[2025-07-18 09:34:27,952][root][INFO] - Iteration 1: Code Run 5 successful!
+[2025-07-18 09:34:31,390][root][INFO] - Iteration 1: Code Run 6 successful!
+[2025-07-18 09:34:35,172][root][INFO] - Iteration 1: Code Run 7 successful!
+[2025-07-18 09:34:39,166][root][INFO] - Iteration 1: Code Run 8 successful!
+[2025-07-18 09:34:43,238][root][INFO] - Iteration 1: Code Run 9 successful!
+[2025-07-18 09:34:47,436][root][INFO] - Iteration 1: Code Run 10 successful!
+[2025-07-18 09:34:51,771][root][INFO] - Iteration 1: Code Run 11 successful!
+[2025-07-18 09:34:56,128][root][INFO] - Iteration 1: Code Run 12 successful!
+[2025-07-18 09:35:00,398][root][INFO] - Iteration 1: Code Run 13 successful!
+[2025-07-18 09:35:04,669][root][INFO] - Iteration 1: Code Run 14 successful!
+[2025-07-18 09:35:08,872][root][INFO] - Iteration 1: Code Run 15 successful!
+[2025-07-18 09:35:13,172][root][INFO] - Iteration 1: Code Run 16 successful!
+[2025-07-18 09:35:17,560][root][INFO] - Iteration 1: Code Run 17 successful!
+[2025-07-18 09:35:22,050][root][INFO] - Iteration 1: Code Run 18 successful!
+[2025-07-18 09:35:26,617][root][INFO] - Iteration 1: Code Run 19 successful!
+[2025-07-18 09:35:26,617][root][ERROR] - Result processing failed for #0: ValueError: operands could not be broadcast together with shapes (50,) (50,150)
+[2025-07-18 09:35:47,185][root][ERROR] - Result processing failed for #15: TypeError: 'numpy.float64' object is not callable
+[2025-07-18 09:35:50,350][root][ERROR] - Result processing failed for #17: IndexError: too many indices for array: array is 1-dimensional, but 2 were indexed
+[2025-07-18 09:35:53,730][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 09:35:54,065][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 09:35:54,240][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 09:35:54,406][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 09:35:54,413][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 09:35:54,478][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 09:36:19,756][root][INFO] - Iteration 1: Code Run 0_cand0 successful!
+[2025-07-18 09:36:22,690][root][INFO] - Iteration 1: Code Run 0_cand1 successful!
+[2025-07-18 09:36:25,610][root][INFO] - Iteration 1: Code Run 15_cand0 successful!
+[2025-07-18 09:36:28,624][root][INFO] - Iteration 1: Code Run 15_cand1 successful!
+[2025-07-18 09:36:31,816][root][INFO] - Iteration 1: Code Run 17_cand0 successful!
+[2025-07-18 09:36:35,045][root][INFO] - Iteration 1: Code Run 17_cand1 successful!
+[2025-07-18 09:36:35,046][root][ERROR] - Candidate processing failed for ID 0_cand0: ValueError: operands could not be broadcast together with shapes (50,) (50,150)
+[2025-07-18 09:36:43,862][root][ERROR] - Candidate processing failed for ID 15_cand1: IndexError: invalid index to scalar variable.
+[2025-07-18 09:36:59,549][root][ERROR] - Candidate processing failed for ID 17_cand1: ValueError: operands could not be broadcast together with shapes (50,150) (50,)
+[2025-07-18 09:36:59,550][root][INFO] - Replaced 3/3 failed individuals.
+[2025-07-18 09:36:59,556][root][INFO] - Iteration 1: Average objective = 1127.304096
+[2025-07-18 09:36:59,557][root][INFO] - Iteration 1: Elitist: 63.147547268024184
+[2025-07-18 09:36:59,584][root][INFO] - Iteration 1 finished...
+[2025-07-18 09:36:59,584][root][INFO] - Function Evals: 21
+[2025-07-18 09:36:59,584][root][INFO] - E_learning prompt:
+[2025-07-18 09:37:00,861][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 09:37:09,750][root][INFO] - Evolve start:
+[2025-07-18 09:37:10,023][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 09:37:10,348][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 09:37:10,404][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 09:37:10,539][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 09:37:10,539][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 09:37:10,592][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 09:37:10,609][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 09:37:10,796][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 09:37:10,887][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 09:37:11,073][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 09:37:38,772][root][INFO] - Iteration 2: Code Run 0 successful!
+[2025-07-18 09:37:41,618][root][INFO] - Iteration 2: Code Run 1 successful!
+[2025-07-18 09:37:44,266][root][WARNING] - Iteration 2: Code Run 2 execution error!)
+[2025-07-18 09:37:47,005][root][WARNING] - Iteration 2: Code Run 3 execution error!)
+[2025-07-18 09:37:49,763][root][WARNING] - Iteration 2: Code Run 4 execution error!)
+[2025-07-18 09:37:52,805][root][INFO] - Iteration 2: Code Run 5 successful!
+[2025-07-18 09:37:56,157][root][INFO] - Iteration 2: Code Run 6 successful!
+[2025-07-18 09:37:59,400][root][WARNING] - Iteration 2: Code Run 7 execution error!)
+[2025-07-18 09:38:02,995][root][INFO] - Iteration 2: Code Run 8 successful!
+[2025-07-18 09:38:06,206][root][INFO] - Iteration 2: Code Run 9 successful!
+[2025-07-18 09:38:10,500][root][ERROR] - Result processing failed for #2: SyntaxError: '[' was never closed
+[2025-07-18 09:38:10,501][root][ERROR] - Result processing failed for #3: SyntaxError: Generator expression must be parenthesized
+[2025-07-18 09:38:10,501][root][ERROR] - Result processing failed for #4: SyntaxError: '[' was never closed
+[2025-07-18 09:38:27,047][root][ERROR] - Result processing failed for #7: SyntaxError: '[' was never closed
+[2025-07-18 09:38:27,048][root][ERROR] - Result processing failed for #8: ValueError: probabilities contain NaN
+[2025-07-18 09:38:35,692][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 09:38:35,761][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 09:38:35,815][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 09:38:35,911][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 09:38:35,997][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 09:38:36,059][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 09:38:36,319][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 09:38:36,464][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 09:38:36,493][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 09:38:36,589][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 09:39:05,839][root][INFO] - Iteration 2: Code Run 2_cand0 successful!
+[2025-07-18 09:39:08,606][root][INFO] - Iteration 2: Code Run 2_cand1 successful!
+[2025-07-18 09:39:11,380][root][INFO] - Iteration 2: Code Run 3_cand0 successful!
+[2025-07-18 09:39:15,061][root][INFO] - Iteration 2: Code Run 3_cand1 successful!
+[2025-07-18 09:39:18,488][root][INFO] - Iteration 2: Code Run 4_cand0 successful!
+[2025-07-18 09:39:22,064][root][INFO] - Iteration 2: Code Run 4_cand1 successful!
+[2025-07-18 09:39:26,659][root][INFO] - Iteration 2: Code Run 7_cand0 successful!
+[2025-07-18 09:39:30,883][root][INFO] - Iteration 2: Code Run 7_cand1 successful!
+[2025-07-18 09:39:35,166][root][INFO] - Iteration 2: Code Run 8_cand0 successful!
+[2025-07-18 09:39:39,582][root][INFO] - Iteration 2: Code Run 8_cand1 successful!
+[2025-07-18 09:40:31,618][root][INFO] - Replaced 5/5 failed individuals.
+[2025-07-18 09:40:31,622][root][INFO] - Iteration 2: Average objective = 1599.269956
+[2025-07-18 09:40:31,639][root][INFO] - Iteration 2 finished...
+[2025-07-18 09:40:31,639][root][INFO] - Function Evals: 31
+[2025-07-18 09:40:31,640][root][INFO] - E_learning prompt:
+[2025-07-18 09:40:32,547][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 09:40:42,136][root][INFO] - Evolve start:
+[2025-07-18 09:40:42,409][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 09:40:42,756][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 09:40:43,018][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 09:40:43,020][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 09:40:43,161][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 09:40:43,175][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 09:40:43,178][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 09:40:43,227][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 09:40:43,584][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 09:40:43,858][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 09:41:07,405][root][INFO] - Iteration 3: Code Run 0 successful!
+[2025-07-18 09:41:10,439][root][WARNING] - Iteration 3: Code Run 1 execution error!)
+[2025-07-18 09:41:13,980][root][INFO] - Iteration 3: Code Run 2 successful!
+[2025-07-18 09:41:17,229][root][INFO] - Iteration 3: Code Run 3 successful!
+[2025-07-18 09:41:20,273][root][INFO] - Iteration 3: Code Run 4 successful!
+[2025-07-18 09:41:23,394][root][INFO] - Iteration 3: Code Run 5 successful!
+[2025-07-18 09:41:26,602][root][INFO] - Iteration 3: Code Run 6 successful!
+[2025-07-18 09:41:29,723][root][WARNING] - Iteration 3: Code Run 7 execution error!)
+[2025-07-18 09:41:33,142][root][INFO] - Iteration 3: Code Run 8 successful!
+[2025-07-18 09:41:36,718][root][INFO] - Iteration 3: Code Run 9 successful!
+[2025-07-18 09:41:36,719][root][ERROR] - Result processing failed for #1: SyntaxError: closing parenthesis ']' does not match opening parenthesis '('
+[2025-07-18 09:42:00,871][root][ERROR] - Result processing failed for #7: SyntaxError: '[' was never closed
+[2025-07-18 09:42:08,842][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 09:42:09,342][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 09:42:09,386][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 09:42:09,465][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 09:42:35,398][root][INFO] - Iteration 3: Code Run 1_cand0 successful!
+[2025-07-18 09:42:37,982][root][INFO] - Iteration 3: Code Run 1_cand1 successful!
+[2025-07-18 09:42:40,697][root][INFO] - Iteration 3: Code Run 7_cand0 successful!
+[2025-07-18 09:42:43,564][root][INFO] - Iteration 3: Code Run 7_cand1 successful!
+[2025-07-18 09:43:12,710][root][INFO] - Replaced 2/2 failed individuals.
+[2025-07-18 09:43:12,714][root][INFO] - Iteration 3: Average objective = 1306.925170
+[2025-07-18 09:43:12,726][root][INFO] - Iteration 3 finished...
+[2025-07-18 09:43:12,727][root][INFO] - Function Evals: 41
+[2025-07-18 09:43:12,727][root][INFO] - E_learning prompt:
+[2025-07-18 09:43:13,667][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 09:43:23,200][root][INFO] - Evolve start:
+[2025-07-18 09:43:23,399][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 09:43:23,995][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 09:43:24,011][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 09:43:24,232][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 09:43:24,302][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 09:43:24,319][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 09:43:24,319][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 09:43:24,470][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 09:43:24,470][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 09:43:24,509][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 09:43:50,210][root][INFO] - Iteration 4: Code Run 0 successful!
+[2025-07-18 09:43:52,815][root][INFO] - Iteration 4: Code Run 1 successful!
+[2025-07-18 09:43:55,548][root][INFO] - Iteration 4: Code Run 2 successful!
+[2025-07-18 09:43:58,383][root][INFO] - Iteration 4: Code Run 3 successful!
+[2025-07-18 09:44:01,424][root][INFO] - Iteration 4: Code Run 4 successful!
+[2025-07-18 09:44:04,811][root][INFO] - Iteration 4: Code Run 5 successful!
+[2025-07-18 09:44:08,138][root][INFO] - Iteration 4: Code Run 6 successful!
+[2025-07-18 09:44:11,508][root][INFO] - Iteration 4: Code Run 7 successful!
+[2025-07-18 09:44:14,853][root][INFO] - Iteration 4: Code Run 8 successful!
+[2025-07-18 09:44:18,228][root][INFO] - Iteration 4: Code Run 9 successful!
+[2025-07-18 09:44:46,593][root][INFO] - Iteration 4: Average objective = 630.340860
+[2025-07-18 09:44:46,594][root][INFO] - Iteration 4: Elitist: 52.179752564367206
+[2025-07-18 09:44:46,606][root][INFO] - Iteration 4 finished...
+[2025-07-18 09:44:46,606][root][INFO] - Function Evals: 51
+[2025-07-18 09:44:46,606][root][INFO] - Best Code Path Overall: ('individual_3_response.txt', 'individual_3_code.py'), time:467.0220685005188

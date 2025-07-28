@@ -1,0 +1,26 @@
+{thought process:
+1. The error occurs because node_attr is a 1-dimensional array but the code tries to index it as a 2-dimensional array with node_attr[:, 0]
+2. We need to either:
+   - Ensure node_attr is 2D before accessing it
+   - Modify the code to work with 1D arrays
+3. Since the code appears to be working with node sizes, we can directly use node_attr as the sizes array if it's 1D
+4. We should also maintain the same functionality of calculating the heuristic matrix}
+
+```python
+import numpy as np
+def heuristics_v2(node_attr, node_constraint):
+    #EVOLVE-START
+    # Handle both 1D and 2D input arrays
+    if node_attr.ndim == 1:
+        sizes = node_attr
+    else:
+        sizes = node_attr[:, 0]
+    n = len(sizes)
+    heuristic = np.zeros((n, n))
+    for i in range(n):
+        for j in range(n):
+            if i != j:
+                heuristic[i,j] = sizes[i]/(node_constraint - sizes[j] + 1e-9)
+    return heuristic
+    #EVOLVE-END
+```

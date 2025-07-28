@@ -1,0 +1,58 @@
+[*] Running ACS optimization...
+[*] Training with 30 students
+C:\Users\22973\Desktop\meevo-main\meevo\evaluators\acs\gpt.py:15: RuntimeWarning:
+
+invalid value encountered in scalar power
+
+[*] Trial 0: 28702.125
+[*] Trial 1: 17709.375
+[*] Trial 2: 11782.75
+[*] Trial 3: 11782.75
+[*] Trial 4: 11782.75
+[*] Trial 5: 11782.75
+[*] Trial 6: 11782.75
+[*] Trial 7: 11782.75
+[*] Trial 8: 11782.75
+[*] Trial 9: 11782.75
+[*] Trial 10: 11782.75
+[*] Trial 11: 11782.75
+[*] Trial 12: 11782.75
+[*] Trial 13: 11782.75
+[*] Trial 14: 11782.75
+[*] Trial 15: 11782.75
+[*] Trial 16: 11782.75
+[*] Trial 17: 11782.75
+[*] Trial 18: 11782.75
+[*] Trial 19: 11782.75
+[*] Trial 20: 11782.75
+[*] Trial 21: 11782.75
+[*] Trial 22: 11782.75
+[*] Trial 23: 11782.75
+[*] Trial 24: 11782.75
+[*] Trial 25: 11782.75
+[*] Trial 26: 11782.75
+[*] Trial 27: 11782.75
+[*] Trial 28: 11782.75
+[*] Trial 29: 11782.75
+[*] Trial 30: 11782.75
+[*] Trial 31: 11782.75
+[*] Trial 32: 11782.75
+[*] Trial 33: 11782.75
+[*] Trial 34: 11782.75
+[*] Trial 35: 11782.75
+[*] Trial 36: 11782.75
+[*] Trial 37: 11782.75
+[*] Trial 38: 11782.75
+[*] Trial 39: 11782.75
+[*] Trial 40: 11782.75
+[*] Trial 41: 11782.75
+[*] Trial 42: 11782.75
+[*] Trial 43: 11782.75
+[*] Trial 44: 11782.75
+[*] Trial 45: 11782.75
+[*] Trial 46: 11782.75
+[*] Trial 47: 11782.75
+[*] Trial 48: 11782.75
+[*] Trial 49: 11782.75
+[*] min objective value:
+11782.75

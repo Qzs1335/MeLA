@@ -1,0 +1,66 @@
+[*] Running ACS optimization...
+[*] Training with 30 students
+C:\Users\22973\Desktop\meevo-main\meevo\evaluators\acs\gpt.py:17: RuntimeWarning:
+
+overflow encountered in power
+
+C:\Users\22973\Desktop\meevo-main\meevo\evaluators\acs\gpt.py:17: RuntimeWarning:
+
+divide by zero encountered in divide
+
+C:\Users\22973\Desktop\meevo-main\meevo\evaluators\acs\gpt.py:23: RuntimeWarning:
+
+invalid value encountered in multiply
+
+[*] Trial 0: 34637.5625
+[*] Trial 1: 15664.25
+[*] Trial 2: 7690.4375
+[*] Trial 3: 7690.4375
+[*] Trial 4: 7690.4375
+[*] Trial 5: 6707.625
+[*] Trial 6: 5700.125
+[*] Trial 7: 5700.125
+[*] Trial 8: 5700.125
+[*] Trial 9: 5700.125
+[*] Trial 10: 5700.125
+[*] Trial 11: 5700.125
+[*] Trial 12: 5700.125
+[*] Trial 13: 5700.125
+[*] Trial 14: 5691.625
+[*] Trial 15: 3683.0
+[*] Trial 16: 3683.0
+[*] Trial 17: 3683.0
+[*] Trial 18: 3683.0
+[*] Trial 19: 2678.75
+[*] Trial 20: 2663.75
+[*] Trial 21: 2663.75
+[*] Trial 22: 2663.75
+[*] Trial 23: 2663.75
+[*] Trial 24: 2663.75
+[*] Trial 25: 2663.75
+[*] Trial 26: 2663.75
+[*] Trial 27: 2663.75
+[*] Trial 28: 1657.6875
+[*] Trial 29: 1657.6875
+[*] Trial 30: 1657.6875
+[*] Trial 31: 1657.6875
+[*] Trial 32: 1657.6875
+[*] Trial 33: 1657.6875
+[*] Trial 34: 1657.6875
+[*] Trial 35: 1657.6875
+[*] Trial 36: 1657.6875
+[*] Trial 37: 1657.6875
+[*] Trial 38: 1657.6875
+[*] Trial 39: 1657.6875
+[*] Trial 40: 1657.6875
+[*] Trial 41: 1657.6875
+[*] Trial 42: 1657.6875
+[*] Trial 43: 1657.6875
+[*] Trial 44: 1657.6875
+[*] Trial 45: 1657.6875
+[*] Trial 46: 1657.6875
+[*] Trial 47: 1657.6875
+[*] Trial 48: 1657.6875
+[*] Trial 49: 1657.6875
+[*] min objective value:
+1657.6875

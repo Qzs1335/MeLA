@@ -1,0 +1,17 @@
+{thought process:
+1.Current heuristic returns uniform values, missing item-bin relationships.
+2.Incorporate size-based heuristics for better packing efficiency.
+3.Use node attributes (sizes) to create meaningful probabilities.
+4.Prioritize larger items first to reduce fragmentation.}
+
+```python
+import numpy as np
+def heuristics_v1(node_attr, node_constraint):
+    #EVOLVE-START
+    n = node_attr.shape[0]
+    sizes = node_attr[:,0]
+    heuristic = np.outer(sizes, sizes)  # Larger items get higher priority
+    np.fill_diagonal(heuristic, 0)      # Avoid self-pairing
+    return heuristic/sizes.sum()        # Normalize
+    #EVOLVE-END
+```

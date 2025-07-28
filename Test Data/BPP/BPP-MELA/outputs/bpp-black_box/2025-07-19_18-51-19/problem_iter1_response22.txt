@@ -1,0 +1,18 @@
+{thought process:
+1.Current heuristic returns uniform values, ignoring item attributes.
+2.Better heuristic should consider item sizes and bin capacity.
+3.Use size-based probabilities to guide packing.
+4.Incorporate exponential decay for large items to prevent fragmentation.}
+
+```python
+import numpy as np
+def heuristics_v1(node_attr, node_constraint):
+    #EVOLVE-START
+    n = node_attr.shape[0]
+    sizes = node_attr[:,0]
+    norm_sizes = sizes/node_constraint
+    heuristic = np.exp(-5*norm_sizes.reshape(-1,1)) * np.exp(-5*norm_sizes)
+    np.fill_diagonal(heuristic, 0)
+    return heuristic
+    #EVOLVE-END
+```

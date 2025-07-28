@@ -1,0 +1,23 @@
+[*] Running ACS optimization...
+[*] Training with 30 students
+Successfully loaded SN positions from 'sn_pos.npy'.
+Starting optimization for 100 iterations...
+C:\Users\22973\Desktop\meevo-main\meevo\evaluators\wsn\gpt.py:20: RuntimeWarning:
+
+invalid value encountered in divide
+
+Traceback (most recent call last):
+  File "C:\Users\22973\Desktop\meevo-main\meevo/evaluators/wsn/main.py", line 39, in <module>
+    obj = solve()
+          ^^^^^^^
+  File "C:\Users\22973\Desktop\meevo-main\meevo/evaluators/wsn/main.py", line 24, in solve
+    best_score = acs.evaluate(priority=heuristics)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\22973\Desktop\meevo-main\meevo\evaluators\wsn\wsn.py", line 207, in evaluate
+    Positions = priority(Positions, Best_pos, Best_score, rg)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\22973\Desktop\meevo-main\meevo\evaluators\wsn\gpt.py", line 21, in heuristics_v2
+    distances = np.linalg.norm(Positions - Best_pos, axis=1)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "numpy\\random\\mtrand.pyx", line 971, in numpy.random.mtrand.RandomState.choice
+ValueError: probabilities contain NaN

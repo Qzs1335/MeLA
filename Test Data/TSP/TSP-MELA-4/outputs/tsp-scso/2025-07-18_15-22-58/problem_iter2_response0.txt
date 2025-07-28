@@ -1,0 +1,16 @@
+{thought process:
+1. Keep core hybrid approach (decay + inverse distance)
+2. Optimize parameters: beta=2.0 worked well, but adjust decay scale (10→5)
+3. Add adaptive epsilon based on matrix stats
+4. Normalize output for consistency}     
+```python
+import numpy as np 
+def heuristics_v2(distance_matrix):
+    #EVOLVE-START
+    epsilon = np.mean(distance_matrix)/100  # dynamic epsilon
+    decay_scale = 5  # optimized from 10
+    normalized = np.exp(-distance_matrix/decay_scale) * ((1/(distance_matrix + epsilon))**2.0)
+    return normalized/np.max(normalized)  # scale to [0,1]
+    #EVOLVE-END       
+    return 1 / distance_matrix
+```

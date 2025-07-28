@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "C:\Users\22973\Desktop\meevo-main\meevo/evaluators/wsn/main.py", line 7, in <module>
+    import gpt  # 自定义的启发式模块
+    ^^^^^^^^^^
+  File "C:\Users\22973\Desktop\meevo-main\meevo\evaluators\wsn\gpt.py", line 16
+    neighbor_size = max(3, int(SearchAgents_no*(0.1 + 0.1*rg))  # Adaptive neighborhood
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: Generator expression must be parenthesized

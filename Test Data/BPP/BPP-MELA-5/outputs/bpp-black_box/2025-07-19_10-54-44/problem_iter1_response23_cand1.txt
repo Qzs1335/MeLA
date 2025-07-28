@@ -1,0 +1,18 @@
+{thought process:
+1. The error occurs because node_attr is being treated as a 2D array but is actually 1D
+2. We need to properly reshape the node_attr to handle both 1D and 2D cases
+3. The size extraction should work for both cases by using .flatten() first
+4. The normalization by node_constraint should be handled carefully to avoid division by zero
+5. The output heuristic matrix should maintain the same shape as the original size_diff matrix}
+
+```python
+import numpy as np
+def heuristics_v2(node_attr, node_constraint):
+    #EVOLVE-START
+    sizes = np.array(node_attr).flatten()  # Ensure 1D array
+    size_diff = np.abs(sizes[:, None] - sizes[None, :])
+    # Add small epsilon to avoid division by zero
+    heuristic = 1 / (1 + size_diff/(node_constraint + 1e-10))
+    return heuristic
+    #EVOLVE-END
+```

@@ -1,0 +1,17 @@
+{thought process:
+1. Current version combines multiple components but may overcomplicate.
+2. Keep core inverse distance with epsilon for stability.
+3. Simplify by removing less impactful factors (sigmoid, decay).
+4. Add logarithmic scaling for better gradient sensitivity.
+5. Use median-based normalization for adaptive scaling.}
+
+```python
+import numpy as np 
+def heuristics_v2(distance_matrix):
+    #EVOLVE-START
+    epsilon = 1e-8
+    adaptive_scale = np.median(distance_matrix)
+    return np.log1p(1/(distance_matrix + epsilon)) * (1/(distance_matrix + epsilon))**0.5
+    #EVOLVE-END       
+    return 1 / distance_matrix
+```

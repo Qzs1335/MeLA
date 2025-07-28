@@ -1,0 +1,27 @@
+{thought process:
+1. The error occurs because the code assumes node_attr is 2-dimensional (with shape [n,2]) but it's actually 1-dimensional
+2. We need to first reshape node_attr into a 2D array if it's not already
+3. The weights and constraints should be extracted from the first and second columns respectively
+4. The heuristic calculation using outer products is correct but needs to handle edge cases
+5. Finally, we should normalize the heuristic between 0 and 1}
+
+```python
+import numpy as np
+def heuristics_v2(node_attr, node_constraint):
+    #EVOLVE-START
+    # Ensure node_attr is 2D array with shape (n, 2)
+    node_attr = np.atleast_2d(node_attr)
+    if node_attr.shape[1] == 1:
+        node_attr = np.column_stack((node_attr, node_constraint))
+    
+    weights = node_attr[:,0]/np.max(node_attr[:,0])
+    constraints = node_attr[:,1]/np.max(node_attr[:,1])
+    heuristic = np.outer(weights, constraints) * (1 + np.abs(np.subtract.outer(weights, constraints)))
+    
+    # Avoid division by zero if all values are zero
+    max_val = np.max(heuristic)
+    if max_val > 0:
+        return heuristic/max_val
+    return heuristic
+    #EVOLVE-END
+```

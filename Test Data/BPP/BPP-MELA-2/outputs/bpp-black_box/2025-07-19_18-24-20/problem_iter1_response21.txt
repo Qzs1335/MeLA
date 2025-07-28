@@ -1,0 +1,17 @@
+{thought process:
+1. Current heuristic uses uniform values (ones), missing item-specific information.
+2. Should incorporate node attributes (weights) and constraints.
+3. Prioritize heavier items first to optimize bin packing.
+4. Use inverse distance from capacity to guide placement.}
+
+```python
+import numpy as np
+def heuristics_v1(node_attr, node_constraint):
+    #EVOLVE-START
+    n = node_attr.shape[0]
+    weights = node_attr[:,0]
+    heuristic = np.outer(weights, 1/weights)
+    np.fill_diagonal(heuristic, 0)
+    return heuristic/(node_constraint * 2)
+    #EVOLVE-END
+```

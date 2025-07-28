@@ -1,0 +1,27 @@
+{thought process:
+1. The error occurs because we're trying to index a 1D array as if it were 2D when calculating weights
+2. We need to handle the case where node_attr might be 1-dimensional by reshaping it if necessary
+3. The weights extraction should work for both 1D and 2D input arrays
+4. The heuristic calculation remains the same as it's mathematically correct
+5. We need to ensure proper normalization of the final heuristic matrix}
+
+```python
+import numpy as np
+def heuristics_v2(node_attr, node_constraint):
+    #EVOLVE-START
+    # Handle both 1D and 2D input cases
+    if len(node_attr.shape) == 1:
+        weights = node_attr.reshape(-1, 1)
+    else:
+        weights = node_attr[:, 0].reshape(-1, 1)
+    
+    # Calculate pairwise differences and inverse
+    heuristic = np.abs(weights - weights.T) + 1e-6
+    heuristic = 1 / heuristic
+    np.fill_diagonal(heuristic, 0)
+    
+    # Normalize and return
+    row_sums = heuristic.sum(axis=1, keepdims=True)
+    return np.where(row_sums > 0, heuristic / row_sums, 0)
+    #EVOLVE-END
+```

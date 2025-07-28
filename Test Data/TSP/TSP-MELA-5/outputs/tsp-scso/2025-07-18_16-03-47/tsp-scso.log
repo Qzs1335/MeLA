@@ -1,0 +1,419 @@
+[2025-07-18 16:03:47,178][root][INFO] - Workspace: C:\Users\22973\Desktop\meevo-main\meevo\outputs\tsp-scso\2025-07-18_16-03-47
+[2025-07-18 16:03:47,179][root][INFO] - Project Root: C:\Users\22973\Desktop\meevo-main\meevo
+[2025-07-18 16:03:47,179][root][INFO] - Using LLM: deepseek-chat
+[2025-07-18 16:03:47,179][root][INFO] - Using Algorithm: ele
+[2025-07-18 16:03:49,320][root][INFO] - Problem: tsp
+[2025-07-18 16:03:49,320][root][INFO] - Function name: heuristics
+[2025-07-18 16:03:49,320][root][INFO] - Evaluating init algorithm...
+[2025-07-18 16:03:49,320][root][INFO] - Analyze the problem...
+[2025-07-18 16:03:49,321][root][INFO] - Initial Population Prompt:
+[2025-07-18 16:03:50,084][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:04:01,961][root][INFO] - Iteration 0: Code Run 0 successful!
+[2025-07-18 16:04:08,627][root][INFO] - Iteration 0: Average objective = 6.516175
+[2025-07-18 16:04:08,629][root][INFO] - Iteration 0: Elitist: 6.516174579585825
+[2025-07-18 16:04:08,632][root][INFO] - Iteration 0 finished...
+[2025-07-18 16:04:08,632][root][INFO] - Function Evals: 1
+[2025-07-18 16:04:08,632][root][INFO] - Validation script finished. Results are saved in C:\Users\22973\Desktop\meevo-main\meevo/codebase/iteration_0/individual_0_obj.txt.
+[2025-07-18 16:04:08,633][root][INFO] - Initial Population Prompt:
+[2025-07-18 16:04:09,004][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:04:09,038][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:04:09,077][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:04:09,188][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:04:09,214][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:04:09,296][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:04:09,327][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:04:09,331][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:04:09,355][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:04:09,418][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:04:09,499][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:04:09,611][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:04:09,623][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:04:09,661][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:04:09,669][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:04:09,682][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:04:09,702][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:04:09,717][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:04:09,775][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:04:09,776][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:04:18,546][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:04:18,719][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:04:18,876][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:04:18,917][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:04:18,973][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:04:19,313][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:04:19,340][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:04:19,540][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:04:19,801][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:04:19,923][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:04:39,293][root][INFO] - Iteration 1: Code Run 0 successful!
+[2025-07-18 16:04:44,519][root][INFO] - Iteration 1: Code Run 1 successful!
+[2025-07-18 16:04:49,846][root][INFO] - Iteration 1: Code Run 2 successful!
+[2025-07-18 16:04:54,889][root][INFO] - Iteration 1: Code Run 3 successful!
+[2025-07-18 16:05:00,084][root][INFO] - Iteration 1: Code Run 4 successful!
+[2025-07-18 16:05:06,113][root][INFO] - Iteration 1: Code Run 5 successful!
+[2025-07-18 16:05:11,553][root][INFO] - Iteration 1: Code Run 6 successful!
+[2025-07-18 16:05:16,787][root][INFO] - Iteration 1: Code Run 7 successful!
+[2025-07-18 16:05:21,801][root][INFO] - Iteration 1: Code Run 8 successful!
+[2025-07-18 16:05:26,763][root][INFO] - Iteration 1: Code Run 9 successful!
+[2025-07-18 16:05:31,613][root][INFO] - Iteration 1: Code Run 10 successful!
+[2025-07-18 16:05:36,452][root][INFO] - Iteration 1: Code Run 11 successful!
+[2025-07-18 16:05:41,376][root][INFO] - Iteration 1: Code Run 12 successful!
+[2025-07-18 16:05:46,322][root][INFO] - Iteration 1: Code Run 13 successful!
+[2025-07-18 16:05:51,197][root][INFO] - Iteration 1: Code Run 14 successful!
+[2025-07-18 16:05:55,957][root][INFO] - Iteration 1: Code Run 15 successful!
+[2025-07-18 16:06:00,713][root][INFO] - Iteration 1: Code Run 16 successful!
+[2025-07-18 16:06:05,649][root][INFO] - Iteration 1: Code Run 17 successful!
+[2025-07-18 16:06:10,607][root][INFO] - Iteration 1: Code Run 18 successful!
+[2025-07-18 16:06:15,567][root][INFO] - Iteration 1: Code Run 19 successful!
+[2025-07-18 16:06:20,551][root][INFO] - Iteration 1: Code Run 20 successful!
+[2025-07-18 16:06:25,483][root][INFO] - Iteration 1: Code Run 21 successful!
+[2025-07-18 16:06:30,419][root][INFO] - Iteration 1: Code Run 22 successful!
+[2025-07-18 16:06:35,565][root][INFO] - Iteration 1: Code Run 23 successful!
+[2025-07-18 16:06:40,427][root][INFO] - Iteration 1: Code Run 24 successful!
+[2025-07-18 16:06:45,326][root][INFO] - Iteration 1: Code Run 25 successful!
+[2025-07-18 16:06:50,028][root][INFO] - Iteration 1: Code Run 26 successful!
+[2025-07-18 16:06:54,779][root][INFO] - Iteration 1: Code Run 27 successful!
+[2025-07-18 16:06:59,664][root][INFO] - Iteration 1: Code Run 28 successful!
+[2025-07-18 16:07:04,503][root][INFO] - Iteration 1: Code Run 29 successful!
+[2025-07-18 16:07:04,504][root][ERROR] - Result processing failed for #1: ValueError: Expected parameter probs (Tensor of shape (30, 50)) of distribution Categorical(probs: torch.Size([30, 50])) to satisfy the constraint Simplex(), but found invalid values:
+tensor([[nan, nan, nan,  ..., nan, nan, nan],
+[nan, nan, nan,  ..., nan, nan, nan],
+[nan, nan, nan,  ..., nan, nan, nan],
+...,
+[nan, nan, nan,  ..., nan, nan, nan],
+[nan, nan, nan,  ..., nan, nan, nan],
+[nan, nan, nan,  ..., nan, nan, nan]], dtype=torch.float64)
+[2025-07-18 16:07:04,505][root][ERROR] - Result processing failed for #2: ValueError: Expected parameter probs (Tensor of shape (30, 50)) of distribution Categorical(probs: torch.Size([30, 50])) to satisfy the constraint Simplex(), but found invalid values:
+tensor([[nan, nan, nan,  ..., nan, nan, nan],
+[nan, nan, nan,  ..., nan, nan, nan],
+[nan, nan, nan,  ..., nan, nan, nan],
+...,
+[nan, nan, nan,  ..., nan, nan, nan],
+[nan, nan, nan,  ..., nan, nan, nan],
+[nan, nan, nan,  ..., nan, nan, nan]], dtype=torch.float64)
+[2025-07-18 16:07:04,507][root][ERROR] - Result processing failed for #9: ValueError: Expected parameter probs (Tensor of shape (30, 50)) of distribution Categorical(probs: torch.Size([30, 50])) to satisfy the constraint Simplex(), but found invalid values:
+tensor([[nan, nan, nan,  ..., nan, nan, nan],
+[nan, nan, nan,  ..., nan, nan, nan],
+[nan, nan, nan,  ..., nan, nan, nan],
+...,
+[nan, nan, nan,  ..., nan, nan, nan],
+[nan, nan, nan,  ..., nan, nan, nan],
+[nan, nan, nan,  ..., nan, nan, nan]], dtype=torch.float64)
+[2025-07-18 16:07:04,508][root][ERROR] - Result processing failed for #14: ValueError: Expected parameter probs (Tensor of shape (30, 50)) of distribution Categorical(probs: torch.Size([30, 50])) to satisfy the constraint Simplex(), but found invalid values:
+tensor([[nan, nan, nan,  ..., nan, nan, nan],
+[nan, nan, nan,  ..., nan, nan, nan],
+[nan, nan, nan,  ..., nan, nan, nan],
+...,
+[nan, nan, nan,  ..., nan, nan, nan],
+[nan, nan, nan,  ..., nan, nan, nan],
+[nan, nan, nan,  ..., nan, nan, nan]], dtype=torch.float64)
+[2025-07-18 16:07:04,508][root][ERROR] - Result processing failed for #15: ValueError: Expected parameter probs (Tensor of shape (30, 50)) of distribution Categorical(probs: torch.Size([30, 50])) to satisfy the constraint Simplex(), but found invalid values:
+tensor([[nan, nan, nan,  ..., nan, nan, nan],
+[nan, nan, nan,  ..., nan, nan, nan],
+[nan, nan, nan,  ..., nan, nan, nan],
+...,
+[nan, nan, nan,  ..., nan, nan, nan],
+[nan, nan, nan,  ..., nan, nan, nan],
+[nan, nan, nan,  ..., nan, nan, nan]], dtype=torch.float64)
+[2025-07-18 16:07:04,510][root][ERROR] - Result processing failed for #25: ValueError: Expected parameter probs (Tensor of shape (30, 50)) of distribution Categorical(probs: torch.Size([30, 50])) to satisfy the constraint Simplex(), but found invalid values:
+tensor([[nan, nan, nan,  ..., nan, nan, nan],
+[nan, nan, nan,  ..., nan, nan, nan],
+[nan, nan, nan,  ..., nan, nan, nan],
+...,
+[nan, nan, nan,  ..., nan, nan, nan],
+[nan, nan, nan,  ..., nan, nan, nan],
+[nan, nan, nan,  ..., nan, nan, nan]], dtype=torch.float64)
+[2025-07-18 16:07:11,619][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:07:11,694][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:07:11,746][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:07:11,805][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:07:11,931][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:07:11,950][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:07:12,220][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:07:12,227][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:07:12,255][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:07:12,272][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:07:12,442][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:07:12,454][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:07:34,946][root][INFO] - Iteration 1: Code Run 1_cand0 successful!
+[2025-07-18 16:07:39,527][root][WARNING] - Iteration 1: Code Run 1_cand1 execution error!)
+[2025-07-18 16:07:44,264][root][INFO] - Iteration 1: Code Run 2_cand0 successful!
+[2025-07-18 16:07:48,990][root][INFO] - Iteration 1: Code Run 2_cand1 successful!
+[2025-07-18 16:07:53,782][root][INFO] - Iteration 1: Code Run 9_cand0 successful!
+[2025-07-18 16:07:58,484][root][INFO] - Iteration 1: Code Run 9_cand1 successful!
+[2025-07-18 16:08:03,218][root][INFO] - Iteration 1: Code Run 14_cand0 successful!
+[2025-07-18 16:08:08,105][root][INFO] - Iteration 1: Code Run 14_cand1 successful!
+[2025-07-18 16:08:13,171][root][INFO] - Iteration 1: Code Run 15_cand0 successful!
+[2025-07-18 16:08:18,213][root][INFO] - Iteration 1: Code Run 15_cand1 successful!
+[2025-07-18 16:08:23,479][root][INFO] - Iteration 1: Code Run 25_cand0 successful!
+[2025-07-18 16:08:28,454][root][INFO] - Iteration 1: Code Run 25_cand1 successful!
+[2025-07-18 16:08:28,455][root][ERROR] - Candidate processing failed for ID 1_cand1: SyntaxError: '(' was never closed
+[2025-07-18 16:08:28,458][root][ERROR] - Candidate processing failed for ID 9_cand0: ValueError: Expected parameter probs (Tensor of shape (30, 50)) of distribution Categorical(probs: torch.Size([30, 50])) to satisfy the constraint Simplex(), but found invalid values:
+tensor([[nan, nan, nan,  ..., nan, nan, nan],
+[nan, nan, nan,  ..., nan, nan, nan],
+[nan, nan, nan,  ..., nan, nan, nan],
+...,
+[nan, nan, nan,  ..., nan, nan, nan],
+[nan, nan, nan,  ..., nan, nan, nan],
+[nan, nan, nan,  ..., nan, nan, nan]], dtype=torch.float64)
+[2025-07-18 16:08:28,459][root][ERROR] - Candidate processing failed for ID 14_cand0: ValueError: Expected parameter probs (Tensor of shape (30, 50)) of distribution Categorical(probs: torch.Size([30, 50])) to satisfy the constraint Simplex(), but found invalid values:
+tensor([[nan, nan, nan,  ..., nan, nan, nan],
+[nan, nan, nan,  ..., nan, nan, nan],
+[nan, nan, nan,  ..., nan, nan, nan],
+...,
+[nan, nan, nan,  ..., nan, nan, nan],
+[nan, nan, nan,  ..., nan, nan, nan],
+[nan, nan, nan,  ..., nan, nan, nan]], dtype=torch.float64)
+[2025-07-18 16:08:28,460][root][ERROR] - Candidate processing failed for ID 14_cand1: ValueError: Expected parameter probs (Tensor of shape (30, 50)) of distribution Categorical(probs: torch.Size([30, 50])) to satisfy the constraint Simplex(), but found invalid values:
+tensor([[nan, nan, nan,  ..., nan, nan, nan],
+[nan, nan, nan,  ..., nan, nan, nan],
+[nan, nan, nan,  ..., nan, nan, nan],
+...,
+[nan, nan, nan,  ..., nan, nan, nan],
+[nan, nan, nan,  ..., nan, nan, nan],
+[nan, nan, nan,  ..., nan, nan, nan]], dtype=torch.float64)
+[2025-07-18 16:08:28,461][root][ERROR] - Candidate processing failed for ID 15_cand0: ValueError: Expected parameter probs (Tensor of shape (30, 50)) of distribution Categorical(probs: torch.Size([30, 50])) to satisfy the constraint Simplex(), but found invalid values:
+tensor([[nan, nan, nan,  ..., nan, nan, nan],
+[nan, nan, nan,  ..., nan, nan, nan],
+[nan, nan, nan,  ..., nan, nan, nan],
+...,
+[nan, nan, nan,  ..., nan, nan, nan],
+[nan, nan, nan,  ..., nan, nan, nan],
+[nan, nan, nan,  ..., nan, nan, nan]], dtype=torch.float64)
+[2025-07-18 16:08:28,462][root][ERROR] - Candidate processing failed for ID 15_cand1: ValueError: Expected parameter probs (Tensor of shape (30, 50)) of distribution Categorical(probs: torch.Size([30, 50])) to satisfy the constraint Simplex(), but found invalid values:
+tensor([[nan, nan, nan,  ..., nan, nan, nan],
+[nan, nan, nan,  ..., nan, nan, nan],
+[nan, nan, nan,  ..., nan, nan, nan],
+...,
+[nan, nan, nan,  ..., nan, nan, nan],
+[nan, nan, nan,  ..., nan, nan, nan],
+[nan, nan, nan,  ..., nan, nan, nan]], dtype=torch.float64)
+[2025-07-18 16:08:36,076][root][INFO] - Replaced 4/6 failed individuals.
+[2025-07-18 16:08:36,088][root][INFO] - Iteration 1: Average objective = 7.818434
+[2025-07-18 16:08:36,090][root][INFO] - Iteration 1: Elitist: 5.929968460001925
+[2025-07-18 16:08:36,135][root][INFO] - Iteration 1 finished...
+[2025-07-18 16:08:36,135][root][INFO] - Function Evals: 31
+[2025-07-18 16:08:36,136][root][INFO] - E_learning prompt:
+[2025-07-18 16:08:36,790][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:08:50,149][root][INFO] - Evolve start:
+[2025-07-18 16:08:50,443][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:08:50,499][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:08:50,639][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:08:50,741][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:08:50,860][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:08:51,008][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:08:51,047][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:08:51,185][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:08:51,255][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:08:51,290][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:09:08,044][root][INFO] - Iteration 2: Code Run 0 successful!
+[2025-07-18 16:09:13,211][root][INFO] - Iteration 2: Code Run 1 successful!
+[2025-07-18 16:09:18,557][root][INFO] - Iteration 2: Code Run 2 successful!
+[2025-07-18 16:09:23,926][root][INFO] - Iteration 2: Code Run 3 successful!
+[2025-07-18 16:09:29,041][root][WARNING] - Iteration 2: Code Run 4 execution error!)
+[2025-07-18 16:09:34,242][root][INFO] - Iteration 2: Code Run 5 successful!
+[2025-07-18 16:09:39,465][root][INFO] - Iteration 2: Code Run 6 successful!
+[2025-07-18 16:09:44,750][root][INFO] - Iteration 2: Code Run 7 successful!
+[2025-07-18 16:09:50,224][root][INFO] - Iteration 2: Code Run 8 successful!
+[2025-07-18 16:09:55,537][root][INFO] - Iteration 2: Code Run 9 successful!
+[2025-07-18 16:09:55,539][root][ERROR] - Result processing failed for #4: SyntaxError: '(' was never closed
+[2025-07-18 16:10:02,595][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:10:03,509][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:10:22,076][root][INFO] - Iteration 2: Code Run 4_cand0 successful!
+[2025-07-18 16:10:27,243][root][INFO] - Iteration 2: Code Run 4_cand1 successful!
+[2025-07-18 16:10:34,027][root][INFO] - Replaced 1/1 failed individuals.
+[2025-07-18 16:10:34,032][root][INFO] - Iteration 2: Average objective = 8.422654
+[2025-07-18 16:10:34,046][root][INFO] - Iteration 2 finished...
+[2025-07-18 16:10:34,046][root][INFO] - Function Evals: 41
+[2025-07-18 16:10:34,047][root][INFO] - E_learning prompt:
+[2025-07-18 16:10:35,416][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:10:46,101][root][INFO] - Evolve start:
+[2025-07-18 16:10:46,231][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:10:46,489][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:10:46,613][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:10:46,669][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:10:46,786][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:10:46,831][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:10:47,086][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:10:47,122][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:10:47,134][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:10:47,270][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:11:02,934][root][INFO] - Iteration 3: Code Run 0 successful!
+[2025-07-18 16:11:08,197][root][INFO] - Iteration 3: Code Run 1 successful!
+[2025-07-18 16:11:13,447][root][INFO] - Iteration 3: Code Run 2 successful!
+[2025-07-18 16:11:18,608][root][INFO] - Iteration 3: Code Run 3 successful!
+[2025-07-18 16:11:23,818][root][INFO] - Iteration 3: Code Run 4 successful!
+[2025-07-18 16:11:28,968][root][INFO] - Iteration 3: Code Run 5 successful!
+[2025-07-18 16:11:33,889][root][INFO] - Iteration 3: Code Run 6 successful!
+[2025-07-18 16:11:38,719][root][INFO] - Iteration 3: Code Run 7 successful!
+[2025-07-18 16:11:43,559][root][INFO] - Iteration 3: Code Run 8 successful!
+[2025-07-18 16:11:48,421][root][INFO] - Iteration 3: Code Run 9 successful!
+[2025-07-18 16:11:55,008][root][INFO] - Iteration 3: Average objective = 8.391786
+[2025-07-18 16:11:55,010][root][INFO] - Iteration 3: Elitist: 5.902348684851345
+[2025-07-18 16:11:55,021][root][INFO] - Iteration 3 finished...
+[2025-07-18 16:11:55,021][root][INFO] - Function Evals: 51
+[2025-07-18 16:11:55,021][root][INFO] - E_learning prompt:
+[2025-07-18 16:11:55,304][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:12:07,910][root][INFO] - Evolve start:
+[2025-07-18 16:12:08,373][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:12:08,527][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:12:08,558][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:12:08,658][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:12:08,675][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:12:08,682][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:12:08,695][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:12:08,791][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:12:08,870][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:12:08,937][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:12:24,342][root][INFO] - Iteration 4: Code Run 0 successful!
+[2025-07-18 16:12:29,506][root][INFO] - Iteration 4: Code Run 1 successful!
+[2025-07-18 16:12:34,805][root][INFO] - Iteration 4: Code Run 2 successful!
+[2025-07-18 16:12:40,068][root][INFO] - Iteration 4: Code Run 3 successful!
+[2025-07-18 16:12:45,358][root][INFO] - Iteration 4: Code Run 4 successful!
+[2025-07-18 16:12:50,536][root][INFO] - Iteration 4: Code Run 5 successful!
+[2025-07-18 16:12:55,807][root][INFO] - Iteration 4: Code Run 6 successful!
+[2025-07-18 16:13:01,021][root][INFO] - Iteration 4: Code Run 7 successful!
+[2025-07-18 16:13:06,229][root][INFO] - Iteration 4: Code Run 8 successful!
+[2025-07-18 16:13:11,558][root][INFO] - Iteration 4: Code Run 9 successful!
+[2025-07-18 16:13:18,294][root][INFO] - Iteration 4: Average objective = 10.101066
+[2025-07-18 16:13:18,312][root][INFO] - Iteration 4 finished...
+[2025-07-18 16:13:18,312][root][INFO] - Function Evals: 61
+[2025-07-18 16:13:18,312][root][INFO] - E_learning prompt:
+[2025-07-18 16:13:18,730][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:13:29,993][root][INFO] - Evolve start:
+[2025-07-18 16:13:30,068][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:13:30,478][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:13:30,551][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:13:30,598][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:13:30,616][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:13:30,834][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:13:30,905][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:13:30,974][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:13:30,978][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:13:31,037][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:13:47,527][root][INFO] - Iteration 5: Code Run 0 successful!
+[2025-07-18 16:13:52,662][root][INFO] - Iteration 5: Code Run 1 successful!
+[2025-07-18 16:13:57,721][root][INFO] - Iteration 5: Code Run 2 successful!
+[2025-07-18 16:14:03,022][root][INFO] - Iteration 5: Code Run 3 successful!
+[2025-07-18 16:14:08,317][root][INFO] - Iteration 5: Code Run 4 successful!
+[2025-07-18 16:14:13,679][root][INFO] - Iteration 5: Code Run 5 successful!
+[2025-07-18 16:14:19,287][root][INFO] - Iteration 5: Code Run 6 successful!
+[2025-07-18 16:14:24,925][root][INFO] - Iteration 5: Code Run 7 successful!
+[2025-07-18 16:14:30,119][root][INFO] - Iteration 5: Code Run 8 successful!
+[2025-07-18 16:14:35,284][root][INFO] - Iteration 5: Code Run 9 successful!
+[2025-07-18 16:14:35,286][root][ERROR] - Result processing failed for #7: ValueError: Expected parameter probs (Tensor of shape (30, 50)) of distribution Categorical(probs: torch.Size([30, 50])) to satisfy the constraint Simplex(), but found invalid values:
+tensor([[1.0000e-09, 1.0000e-09, 1.0000e-09,  ..., 1.0000e-09, 1.0000e-09,
+1.0000e-09],
+[1.0000e-09, 1.0000e-09, 1.0000e-09,  ..., 1.0000e-09, 1.0000e-09,
+1.0000e-09],
+[1.0000e-09, 1.0000e-09, 0.0000e+00,  ..., 1.0000e-09, 1.0000e-09,
+1.0000e-09],
+...,
+[1.0000e-09, 1.0000e-09, 1.0000e-09,  ..., 1.0000e-09, 1.0000e-09,
+1.0000e-09],
+[       nan,        nan,        nan,  ...,        nan,        nan,
+nan],
+[       nan,        nan,        nan,  ...,        nan,        nan,
+nan]], dtype=torch.float64)
+[2025-07-18 16:14:42,995][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:14:43,055][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:15:10,090][root][INFO] - Iteration 5: Code Run 7_cand0 successful!
+[2025-07-18 16:15:15,248][root][INFO] - Iteration 5: Code Run 7_cand1 successful!
+[2025-07-18 16:15:21,964][root][INFO] - Replaced 1/1 failed individuals.
+[2025-07-18 16:15:21,967][root][INFO] - Iteration 5: Average objective = 12.398095
+[2025-07-18 16:15:21,968][root][INFO] - Iteration 5: Elitist: 5.823657733612165
+[2025-07-18 16:15:21,979][root][INFO] - Iteration 5 finished...
+[2025-07-18 16:15:21,979][root][INFO] - Function Evals: 71
+[2025-07-18 16:15:21,980][root][INFO] - E_learning prompt:
+[2025-07-18 16:15:22,304][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:15:34,090][root][INFO] - Evolve start:
+[2025-07-18 16:15:34,239][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:15:34,462][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:15:34,562][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:15:34,629][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:15:34,667][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:15:34,679][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:15:34,709][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:15:34,732][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:15:34,835][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:15:34,874][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:15:52,172][root][INFO] - Iteration 6: Code Run 0 successful!
+[2025-07-18 16:15:57,316][root][INFO] - Iteration 6: Code Run 1 successful!
+[2025-07-18 16:16:02,562][root][INFO] - Iteration 6: Code Run 2 successful!
+[2025-07-18 16:16:07,773][root][INFO] - Iteration 6: Code Run 3 successful!
+[2025-07-18 16:16:12,970][root][INFO] - Iteration 6: Code Run 4 successful!
+[2025-07-18 16:16:18,221][root][INFO] - Iteration 6: Code Run 5 successful!
+[2025-07-18 16:16:23,504][root][INFO] - Iteration 6: Code Run 6 successful!
+[2025-07-18 16:16:28,836][root][INFO] - Iteration 6: Code Run 7 successful!
+[2025-07-18 16:16:34,109][root][INFO] - Iteration 6: Code Run 8 successful!
+[2025-07-18 16:16:39,399][root][INFO] - Iteration 6: Code Run 9 successful!
+[2025-07-18 16:16:41,308][root][ERROR] - Result processing failed for #9: ValueError: Expected parameter probs (Tensor of shape (30, 50)) of distribution Categorical(probs: torch.Size([30, 50])) to satisfy the constraint Simplex(), but found invalid values:
+tensor([[0.0204, 0.0204, 0.0204,  ..., 0.0204, 0.0204, 0.0204],
+[0.0204, 0.0204, 0.0204,  ..., 0.0204, 0.0204, 0.0204],
+[   nan,    nan,    nan,  ...,    nan,    nan,    nan],
+...,
+[0.0204, 0.0204, 0.0204,  ..., 0.0204, 0.0204, 0.0204],
+[0.0204, 0.0204, 0.0204,  ..., 0.0000, 0.0204, 0.0204],
+[   nan,    nan,    nan,  ...,    nan,    nan,    nan]],
+dtype=torch.float64)
+[2025-07-18 16:16:41,649][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:16:41,934][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:17:06,169][root][INFO] - Iteration 6: Code Run 9_cand0 successful!
+[2025-07-18 16:17:11,298][root][INFO] - Iteration 6: Code Run 9_cand1 successful!
+[2025-07-18 16:17:18,067][root][INFO] - Replaced 1/1 failed individuals.
+[2025-07-18 16:17:18,072][root][INFO] - Iteration 6: Average objective = 6.276412
+[2025-07-18 16:17:18,084][root][INFO] - Iteration 6 finished...
+[2025-07-18 16:17:18,084][root][INFO] - Function Evals: 81
+[2025-07-18 16:17:18,085][root][INFO] - E_learning prompt:
+[2025-07-18 16:17:18,644][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:17:29,824][root][INFO] - Evolve start:
+[2025-07-18 16:17:30,032][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:17:30,227][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:17:30,410][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:17:30,411][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:17:30,459][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:17:30,628][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:17:30,666][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:17:30,871][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:17:30,900][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:17:30,941][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:17:58,371][root][INFO] - Iteration 7: Code Run 0 successful!
+[2025-07-18 16:18:03,211][root][INFO] - Iteration 7: Code Run 1 successful!
+[2025-07-18 16:18:08,294][root][INFO] - Iteration 7: Code Run 2 successful!
+[2025-07-18 16:18:13,699][root][INFO] - Iteration 7: Code Run 3 successful!
+[2025-07-18 16:18:19,097][root][INFO] - Iteration 7: Code Run 4 successful!
+[2025-07-18 16:18:24,739][root][INFO] - Iteration 7: Code Run 5 successful!
+[2025-07-18 16:18:30,060][root][INFO] - Iteration 7: Code Run 6 successful!
+[2025-07-18 16:18:35,573][root][INFO] - Iteration 7: Code Run 7 successful!
+[2025-07-18 16:18:41,706][root][INFO] - Iteration 7: Code Run 8 successful!
+[2025-07-18 16:18:47,751][root][INFO] - Iteration 7: Code Run 9 successful!
+[2025-07-18 16:18:54,914][root][INFO] - Iteration 7: Average objective = 8.258916
+[2025-07-18 16:18:54,928][root][INFO] - Iteration 7 finished...
+[2025-07-18 16:18:54,928][root][INFO] - Function Evals: 91
+[2025-07-18 16:18:54,929][root][INFO] - E_learning prompt:
+[2025-07-18 16:18:55,889][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:19:08,591][root][INFO] - Evolve start:
+[2025-07-18 16:19:08,799][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:19:08,932][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:19:08,995][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:19:09,234][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:19:09,263][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:19:09,296][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:19:09,461][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:19:09,611][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:19:09,729][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:19:09,744][httpx][INFO] - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-07-18 16:19:26,166][root][INFO] - Iteration 8: Code Run 0 successful!
+[2025-07-18 16:19:30,883][root][INFO] - Iteration 8: Code Run 1 successful!
+[2025-07-18 16:19:35,786][root][INFO] - Iteration 8: Code Run 2 successful!
+[2025-07-18 16:19:41,394][root][INFO] - Iteration 8: Code Run 3 successful!
+[2025-07-18 16:19:46,737][root][INFO] - Iteration 8: Code Run 4 successful!
+[2025-07-18 16:19:51,809][root][INFO] - Iteration 8: Code Run 5 successful!
+[2025-07-18 16:19:56,662][root][INFO] - Iteration 8: Code Run 6 successful!
+[2025-07-18 16:20:01,580][root][INFO] - Iteration 8: Code Run 7 successful!
+[2025-07-18 16:20:06,470][root][INFO] - Iteration 8: Code Run 8 successful!
+[2025-07-18 16:20:11,367][root][INFO] - Iteration 8: Code Run 9 successful!
+[2025-07-18 16:20:17,926][root][INFO] - Iteration 8: Average objective = 7.184640
+[2025-07-18 16:20:17,941][root][INFO] - Iteration 8 finished...
+[2025-07-18 16:20:17,941][root][INFO] - Function Evals: 101
+[2025-07-18 16:20:17,941][root][INFO] - Best Code Path Overall: ('individual_8_response.txt', 'individual_8_code.py'), time:701.806233882904

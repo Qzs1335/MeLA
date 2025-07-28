@@ -1,0 +1,23 @@
+{thought process:
+1. The error occurs because the code assumes node_attr is a 2D array but it's actually 1D
+2. We need to modify the code to handle 1D input arrays
+3. The weights should be taken directly from node_attr instead of trying to index it as 2D
+4. The node_constraint should be used as a scaling factor for the weights
+5. The heuristic calculation remains similar but adjusted for 1D input}
+
+```python
+import numpy as np 
+def heuristics_v2(node_attr, node_constraint):
+    #EVOLVE-START
+    n = len(node_attr)
+    weights = node_attr
+    h = np.zeros((n,n))
+    for i in range(n):
+        for j in range(n):
+            if i == j:
+                h[i,j] = weights[i]/node_constraint
+            else:
+                h[i,j] = 1 - abs(weights[i]-weights[j])/node_constraint
+    return h
+    #EVOLVE-END
+```

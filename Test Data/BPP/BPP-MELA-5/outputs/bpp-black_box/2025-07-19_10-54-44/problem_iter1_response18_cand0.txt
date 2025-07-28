@@ -1,0 +1,28 @@
+{thought process:
+1. The error suggests that `node_attr` is a 1D array but the code tries to index it as 2D (using [:,0])
+2. We need to either ensure node_attr is 2D or modify how we access the sizes
+3. The function calculates a heuristic based on combining sizes of nodes and comparing to a constraint
+4. We should add input validation and handle 1D input case}
+
+```python
+import numpy as np
+def heuristics_v2(node_attr, node_constraint):
+    #EVOLVE-START
+    node_attr = np.asarray(node_attr)
+    if node_attr.ndim == 1:
+        node_attr = node_attr.reshape(-1, 1)
+    
+    n = node_attr.shape[0]
+    sizes = node_attr[:, 0] if node_attr.shape[1] > 0 else np.zeros(n)
+    heuristic = np.zeros((n, n))
+    
+    for i in range(n):
+        for j in range(n):
+            if i != j:
+                combined = sizes[i] + sizes[j]
+                heuristic[i,j] = 1/(abs(node_constraint - combined) + 1e-9)
+    
+    np.fill_diagonal(heuristic, 0)
+    return heuristic
+    #EVOLVE-END
+```

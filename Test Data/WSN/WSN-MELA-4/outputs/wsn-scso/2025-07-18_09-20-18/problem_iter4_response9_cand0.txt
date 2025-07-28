@@ -1,0 +1,44 @@
+{thought process:
+1. The error occurs due to dimension mismatch in the velocity update equation where we try to subtract Positions[elite_idx] (shape 50,150) from Positions (shape 12,150)
+2. We need to ensure the elite selection and subsequent operations maintain compatible dimensions
+3. The elite guidance should be properly broadcasted to match the main population size
+4. We should maintain consistent array shapes throughout the operations}
+
+```python
+import numpy as np 
+def heuristics_v2(Positions, Best_pos, Best_score, rg):
+    SearchAgents_no = Positions.shape[0]
+    dim = Positions.shape[1]
+    
+    lb_array = np.zeros((SearchAgents_no, dim))
+    ub_array = np.ones((SearchAgents_no, dim))
+
+    rand_adjust = lb_array + (ub_array - lb_array) * np.random.rand(*Positions.shape)
+    Positions = np.where((Positions < lb_array) | (Positions > ub_array), rand_adjust, Positions)
+
+    #EVOLVE-START
+    # Enhanced adaptive parameters with nonlinear scaling
+    progress = np.clip(1 - (Best_score / 1000), 0.1, 0.9)
+    w = 0.9 * (1 - progress**0.5)
+    c1 = 2.5 * (1 - progress**2)
+    c2 = 2.5 - c1
+    
+    # Hybrid velocity update with properly broadcasted elite guidance
+    elite_idx = np.random.choice(SearchAgents_no, size=min(SearchAgents_no//4, SearchAgents_no), replace=False)
+    elite_guide = Positions[elite_idx].mean(axis=0, keepdims=True)  # Average of elites
+    
+    velocity = w * np.random.randn(*Positions.shape) + \
+              c1 * np.random.rand(*Positions.shape) * (Best_pos - Positions) + \
+              c2 * np.random.rand(*Positions.shape) * (elite_guide - Positions)
+    
+    # Smart boundary handling with probabilistic reflection
+    Positions = Positions + velocity * (rg * (0.5 + np.random.rand()))
+    mask = (Positions < lb_array) | (Positions > ub_array)
+    Positions = np.where(mask, 
+                        np.clip(Positions, lb_array, ub_array) + 
+                        np.random.rand()*(Best_pos - Positions), 
+                        Positions)
+    #EVOLVE-END       
+    
+    return Positions
+```

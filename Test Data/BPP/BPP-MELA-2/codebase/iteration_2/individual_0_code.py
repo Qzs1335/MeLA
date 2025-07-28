@@ -1,0 +1,10 @@
+import numpy as np
+import numpy as np
+def heuristics_v2(node_attr, node_constraint):
+    #EVOLVE-START
+    n = node_attr.shape[0]
+    attr_sum = node_attr[:, None] + node_attr[None, :]
+    remaining = node_constraint - attr_sum
+    heu = np.where((remaining >= 0) & (~np.eye(n, dtype=bool)), 1/(remaining + 1e-6), 0)
+    return heu
+    #EVOLVE-END

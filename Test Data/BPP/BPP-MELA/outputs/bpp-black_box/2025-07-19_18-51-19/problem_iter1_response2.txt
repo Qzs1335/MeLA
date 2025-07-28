@@ -1,0 +1,17 @@
+{thought process:
+1. Current heuristic returns uniform weights (ones), missing item-bin affinity.
+2. Better heuristic should consider size compatibility.
+3. Weight matrix should reflect how well items fit together.
+4. Use normalized size ratios for weighted probabilities.}
+
+```python
+import numpy as np
+def heuristics_v1(node_attr, node_constraint):
+    #EVOLVE-START
+    n = node_attr.shape[0]
+    sizes = node_attr[:,0].reshape(-1,1)
+    compat_matrix = 1 - np.abs(sizes - sizes.T)/node_constraint
+    np.fill_diagonal(compat_matrix, 0)
+    return np.clip(compat_matrix, 0, 1)
+    #EVOLVE-END
+```

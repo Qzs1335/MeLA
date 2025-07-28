@@ -1,0 +1,13 @@
+{thought process:
+1. Current heuristic uses simple inverse distance which may not capture complex relationships
+2. Adding exponential decay can prioritize nearby cities more sharply
+3. Logarithmic scaling could help balance near/far city weights
+4. Combining both approaches might yield better performance}     
+```python
+import numpy as np 
+def heuristics_v1(distance_matrix):
+    #EVOLVE-START
+    return np.exp(-0.5 * distance_matrix) * np.log(1 + 1/distance_matrix)
+    #EVOLVE-END       
+    return 1 / distance_matrix
+```

@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "C:\Users\22973\Desktop\meevo-main\meevo/evaluators/wsn/main.py", line 7, in <module>
+    import gpt  # 自定义的启发式模块
+    ^^^^^^^^^^
+  File "C:\Users\22973\Desktop\meevo-main\meevo\evaluators\wsn\gpt.py", line 21
+    a = 2*(1 - np.tanh(rg*np.linspace(0,1,SearchAgents_no).reshape(-1,1))
+          ^
+SyntaxError: '(' was never closed

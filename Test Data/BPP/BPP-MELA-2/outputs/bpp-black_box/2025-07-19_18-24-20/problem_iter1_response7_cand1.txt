@@ -1,0 +1,27 @@
+{thought process:
+1. The error occurs because we're trying to index node_attr as a 2D array (with [:,0]) when it's actually 1-dimensional
+2. We need to handle both cases where node_attr might be 1D or 2D
+3. For consistency, we should ensure weights is always treated as a 1D array
+4. The node_constraint parameter should be checked to avoid division by zero
+5. The heuristic calculation logic itself is sound and should be preserved}
+
+```python
+import numpy as np 
+def heuristics_v2(node_attr, node_constraint):
+    #EVOLVE-START
+    # Ensure node_attr is treated as 1D array
+    weights = np.asarray(node_attr).flatten()
+    n = weights.shape[0]
+    # Handle zero constraint case to avoid division by zero
+    constraint = max(node_constraint, 1e-10)  # small positive value if constraint is zero
+    
+    h = np.zeros((n,n))
+    for i in range(n):
+        for j in range(n):
+            if i == j:
+                h[i,j] = weights[i]/constraint
+            else:
+                h[i,j] = 1 - abs(weights[i]-weights[j])/constraint
+    return h
+    #EVOLVE-END
+```

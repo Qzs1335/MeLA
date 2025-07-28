@@ -1,0 +1,19 @@
+{thought process:
+1. The error occurs because the code assumes node_attr is a 2D array (with shape[0] and column indexing), but it's actually 1D
+2. We need to handle both cases where node_attr could be 1D (single feature) or 2D (multiple features)
+3. For simplicity, we'll modify the code to work with 1D arrays by treating node_attr as weights directly
+4. We'll keep the same heuristic logic but adjust the array dimensions}
+
+```python
+import numpy as np 
+def heuristics_v2(node_attr, node_constraint):
+    #EVOLVE-START
+    n = len(node_attr)
+    weights = node_attr  # Treat node_attr directly as weights
+    dist_matrix = np.abs(weights[:, None] - weights[None, :])
+    heuristic = 1/(1 + dist_matrix)  # Inverse distance
+    heuristic += 0.1*np.random.rand(n, n)  # Exploration factor
+    np.fill_diagonal(heuristic, 0)  # No self-pairing
+    return heuristic
+    #EVOLVE-END
+```

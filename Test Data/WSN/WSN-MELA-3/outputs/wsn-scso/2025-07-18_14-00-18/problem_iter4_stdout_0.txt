@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "C:\Users\22973\Desktop\meevo-main\meevo/evaluators/wsn/main.py", line 7, in <module>
+    import gpt  # 自定义的启发式模块
+    ^^^^^^^^^^
+  File "C:\Users\22973\Desktop\meevo-main\meevo\evaluators\wsn\gpt.py", line 17
+    mask = (opposite_pos != Positions) & (np.random.rand(*Positions.shape) < opp_prob
+                                         ^
+SyntaxError: '(' was never closed

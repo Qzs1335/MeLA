@@ -1,0 +1,22 @@
+{thought process:
+1. The error shows that the function is returning NaN values, which suggests numerical instability in the calculations
+2. The current implementation adds a small epsilon to avoid division by zero but still results in NaNs
+3. We need to ensure the distance matrix values are strictly positive before applying log operations
+4. A better approach would be to clip the distance values to a reasonable minimum threshold
+5. We should also handle cases where the distance matrix might contain zeros or very small values}
+
+```python
+import numpy as np 
+def heuristics_v2(distance_matrix):
+    #EVOLVE-START
+    min_distance = 1e-10  # Minimum threshold to avoid numerical instability
+    clipped_distances = np.maximum(distance_matrix, min_distance)
+    return np.sqrt(np.log(1 / (clipped_distances + 1e-10)))  # Additional small epsilon for safety
+    #EVOLVE-END
+```
+
+The corrected version:
+1. Uses np.maximum to ensure all distance values are at least min_distance
+2. Still includes a small epsilon in the denominator for additional safety
+3. Will produce finite values even when input distances are very small or zero
+4. Maintains the same mathematical intent of the original function while being numerically stable

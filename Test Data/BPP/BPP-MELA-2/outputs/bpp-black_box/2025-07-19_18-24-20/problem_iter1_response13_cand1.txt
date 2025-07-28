@@ -1,0 +1,26 @@
+{thought process:
+1. The error occurs because node_attr is a 1D array but the code tries to treat it as 2D with node_attr[:,0]
+2. We need to first ensure node_attr is properly shaped as a 2D array if it contains multiple attributes per node
+3. The size compatibility heuristic should work with either 1D or 2D input
+4. We should add input validation and proper reshaping
+5. The diagonal should remain zero to prevent self-selection}
+
+```python
+import numpy as np
+def heuristics_v2(node_attr, node_constraint):
+    #EVOLVE-START
+    node_attr = np.asarray(node_attr)
+    if node_attr.ndim == 1:
+        sizes = node_attr.reshape(-1,1)  # Convert 1D to 2D column vector
+    else:
+        sizes = node_attr[:,0].reshape(-1,1)  # Use first column if 2D
+    
+    n = sizes.shape[0]
+    # Size compatibility matrix (larger items prefer smaller companions)
+    heuristic = 1/(1 + np.abs(sizes - sizes.T)/node_constraint)
+    # Add exploration noise
+    heuristic *= (1 + 0.1*np.random.rand(n,n))
+    np.fill_diagonal(heuristic, 0)  # No self-selection
+    return heuristic
+    #EVOLVE-END
+```

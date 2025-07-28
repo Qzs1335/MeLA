@@ -1,0 +1,18 @@
+[*] Running ACS optimization...
+[*] Training with 30 students
+Successfully loaded SN positions from 'sn_pos.npy'.
+Starting optimization for 100 iterations...
+Traceback (most recent call last):
+  File "C:\Users\22973\Desktop\meevo-main\meevo/evaluators/wsn/main.py", line 39, in <module>
+    obj = solve()
+          ^^^^^^^
+  File "C:\Users\22973\Desktop\meevo-main\meevo/evaluators/wsn/main.py", line 24, in solve
+    best_score = acs.evaluate(priority=heuristics)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\22973\Desktop\meevo-main\meevo\evaluators\wsn\wsn.py", line 207, in evaluate
+    Positions = priority(Positions, Best_pos, Best_score, rg)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\22973\Desktop\meevo-main\meevo\evaluators\wsn\gpt.py", line 26, in heuristics_v2
+    # Update positions
+                       
+IndexError: too many indices for array: array is 1-dimensional, but 2 were indexed

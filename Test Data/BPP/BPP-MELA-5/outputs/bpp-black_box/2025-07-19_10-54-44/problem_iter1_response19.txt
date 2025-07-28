@@ -1,0 +1,17 @@
+{thought process:
+1. Current heuristic is trivial (all ones), providing no guidance.
+2. Should incorporate problem-specific info: item weights and bin capacity.
+3. Weight difference heuristic could better guide packing decisions.
+4. Normalize weights for stability.}
+
+```python
+import numpy as np
+def heuristics_v1(node_attr, node_constraint):
+    #EVOLVE-START
+    n = node_attr.shape[0]
+    weights = node_attr[:, 0]
+    norm_weights = weights / node_constraint
+    heuristic = np.abs(norm_weights[:, None] - norm_weights[None, :])
+    return 1 / (heuristic + 1e-6)  # Inverse with small epsilon
+    #EVOLVE-END
+```

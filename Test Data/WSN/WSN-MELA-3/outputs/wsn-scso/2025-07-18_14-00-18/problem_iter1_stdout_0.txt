@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "C:\Users\22973\Desktop\meevo-main\meevo/evaluators/wsn/main.py", line 7, in <module>
+    import gpt  # 自定义的启发式模块
+    ^^^^^^^^^^
+  File "C:\Users\22973\Desktop\meevo-main\meevo\evaluators\wsn\gpt.py", line 15
+    adaptive_rg = rg * (1 + np.sin(np.linspace(0, np.pi, SearchAgents_no)).reshape(-1,1)
+                       ^
+SyntaxError: '(' was never closed

@@ -1,0 +1,10 @@
+[*] Running ...
+[*] Dataset loaded: C:\Users\22973\Desktop\meevo-main\meevo/evaluators/tsp\dataset\train50_dataset.npy with 5 instances.
+[*] Instance 0: 5.3491209226709096
+[*] Instance 1: 5.685367199307284
+[*] Instance 2: 6.193773874390416
+[*] Instance 3: 6.085847355138183
+[*] Instance 4: 5.973943924017098
+[*] Average:
+5.857610655104779
+[0m
