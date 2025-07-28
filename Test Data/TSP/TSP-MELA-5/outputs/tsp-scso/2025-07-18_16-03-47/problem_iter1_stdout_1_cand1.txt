@@ -1,8 +1,0 @@
-Traceback (most recent call last):
-  File "C:\Users\22973\Desktop\meevo-main\meevo/evaluators/tsp/main.py", line 11, in <module>
-    import gpt
-  File "C:\Users\22973\Desktop\meevo-main\meevo\evaluators\tsp\gpt.py", line 13
-    transformed = (transformed - np.min(transformed)) / (np.max(transformed) - np.min(transformed) + epsilon
-                                                        ^
-SyntaxError: '(' was never closed
-[0m

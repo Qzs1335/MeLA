@@ -1,8 +1,0 @@
-Traceback (most recent call last):
-  File "C:\Users\22973\Desktop\meevo-main\meevo/evaluators/wsn/main.py", line 7, in <module>
-    import gpt  # 自定义的启发式模块
-    ^^^^^^^^^^
-  File "C:\Users\22973\Desktop\meevo-main\meevo\evaluators\wsn\gpt.py", line 20
-    levy = np.random.randn(SearchAgents_no, dim) * sigma / (np.abs(np.random.randn(SearchAgents_no, dim))**(1/beta)
-                                                           ^
-SyntaxError: '(' was never closed

@@ -1,8 +1,0 @@
-Traceback (most recent call last):
-  File "C:\Users\22973\Desktop\meevo-main\meevo/evaluators/wsn/main.py", line 7, in <module>
-    import gpt  # 自定义的启发式模块
-    ^^^^^^^^^^
-  File "C:\Users\22973\Desktop\meevo-main\meevo\evaluators\wsn\gpt.py", line 25
-    Positions = np.where(boundary_violation, 
-                        ^
-SyntaxError: '(' was never closed

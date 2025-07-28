@@ -1,8 +1,0 @@
-Traceback (most recent call last):
-  File "C:\Users\22973\Desktop\meevo-main\meevo/evaluators/wsn/main.py", line 7, in <module>
-    import gpt  # 自定义的启发式模块
-    ^^^^^^^^^^
-  File "C:\Users\22973\Desktop\meevo-main\meevo\evaluators\wsn\gpt.py", line 22
-    local_bests = Positions[np.argmin(np.linalg.norm(Positions[all_neighbors] - Best_pos, axis=2), np.arange(SearchAgents_no)]
-                                                                                                                             ^
-SyntaxError: closing parenthesis ']' does not match opening parenthesis '('

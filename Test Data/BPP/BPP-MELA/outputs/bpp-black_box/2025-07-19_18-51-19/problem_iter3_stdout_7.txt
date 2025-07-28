@@ -1,9 +1,0 @@
-[*] Running ...
-[*] Dataset loaded: C:\Users\22973\Desktop\meevo-main\meevo/evaluators/bpp\dataset/train500_dataset.npz with 5 instances.
-[*] Instance 0: 203
-[*] Instance 1: 205
-[*] Instance 2: 204
-[*] Instance 3: 209
-[*] Instance 4: 206
-[*] Average:
-205.4

@@ -1,7 +1,0 @@
-- llm_client=deepseek
-- llm_client.api_key=sk-9519af9d516e4d00b02aa718286d9a93
-- problem=tsp
-- init_pop_size=30
-- pop_size=10
-- max_fe=100
-- timeout=300

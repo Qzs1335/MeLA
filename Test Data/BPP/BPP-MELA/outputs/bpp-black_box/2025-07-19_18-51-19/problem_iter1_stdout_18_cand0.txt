@@ -1,7 +1,0 @@
-Traceback (most recent call last):
-  File "C:\Users\22973\Desktop\meevo-main\meevo/evaluators/bpp/main.py", line 9, in <module>
-    import gpt
-  File "C:\Users\22973\Desktop\meevo-main\meevo\evaluators\bpp\gpt.py", line 11
-    heuristic = 1/(sizes.reshape(-1,1) + 1e-10
-                  ^
-SyntaxError: '(' was never closed

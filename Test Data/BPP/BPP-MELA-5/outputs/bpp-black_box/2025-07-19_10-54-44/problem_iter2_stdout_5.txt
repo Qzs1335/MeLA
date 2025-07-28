@@ -1,7 +1,0 @@
-Traceback (most recent call last):
-  File "C:\Users\22973\Desktop\meevo-main\meevo/evaluators/bpp/main.py", line 9, in <module>
-    import gpt
-  File "C:\Users\22973\Desktop\meevo-main\meevo\evaluators\bpp\gpt.py", line 9
-    h = np.where(mask, 1/(abs(sizes[i]+sizes[j]-node_constraint)+1e-6, 0)
-                ^
-SyntaxError: '(' was never closed
