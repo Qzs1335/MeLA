@@ -2,17 +2,16 @@ from acs import AcsEvaluation
 import numpy as np
 import sys
 from data.data import Data_ACS, Data_Algorithm
-#  添加自定义模块的寻找路径
 sys.path.insert(0, "../../../")
 
-import gpt  # 自定义的启发式模块
-from utils.utils import get_heuristic_name  # 工具函数
+import gpt
+from utils.utils import get_heuristic_name
 
 
 possible_func_names = ["heuristics", "heuristics_v1", "heuristics_v2", "heuristics_v3"]
 
-heuristic_name = get_heuristic_name(gpt, possible_func_names)  # 检测可用函数名
-heuristics = getattr(gpt, heuristic_name)  # 获取启发式函数
+heuristic_name = get_heuristic_name(gpt, possible_func_names)
+heuristics = getattr(gpt, heuristic_name)
 
 
 def solve():

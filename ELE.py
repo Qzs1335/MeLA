@@ -75,19 +75,19 @@ class ELE:
         return response
 
     def strip_ansi(self, text: str) -> str:
-        """移除ANSI颜色转义码"""
+        """Remove ANSI color escape codes"""
         import re
         return re.sub(r'\x1b\[[0-9;]*[mK]', '', text)
 
     def extract_complete_error(self, exception: Exception) -> str:
-        """提取完整的错误类型和消息（包括后续建议）"""
+        """Extract the complete error type and message (including subsequent recommendations)"""
         error_str = self.strip_ansi(str(exception))
         lines = [line.strip() for line in error_str.split('\n') if line.strip()]
 
         if not lines:
             return str(exception)
 
-        # 找到第一个包含错误类型的行（如 "NameError:"）
+        # Find the first line containing an error type (such as "NameError:")
         error_type_line = None
         for i, line in enumerate(lines):
             if 'Error:' in line or 'Exception:' in line:
@@ -95,9 +95,9 @@ class ELE:
                 break
 
         if error_type_line is None:
-            return lines[-1]  # 如果没有明确错误类型，返回最后一行
+            return lines[-1]  # If there is no clear error type, return the last line.
 
-        # 返回从错误类型行开始的所有内容
+        # Return all content starting from the line with the error type.
         return '\n'.join(lines[error_type_line:])
 
     def init_optimize(self):
@@ -380,7 +380,7 @@ class ELE:
         return codebase
 
     def mark_code_individual(self, individual: dict, error_msg: str) -> dict:
-        """标记失败个体"""
+        """Mark failed individuals"""
         return {
             **individual,
             "obj": float('inf') if self.obj_type == "min" else float('-inf'),
@@ -440,7 +440,7 @@ class ELE:
                 f.write(str(individual["obj"]) + '\n')
 
     def next_gen(self) -> None:
-        # 计算有效个体的平均目标值
+        # Calculate the average objective value of valid individuals.
         valid_objs = [
             ind["obj"] for ind in self.codebase
             if ind.get("exec_success", False) and not np.isinf(ind["obj"])
@@ -454,18 +454,18 @@ class ELE:
             logging.warning(f"Iteration {self.iteration}: No valid objectives")
             print(f"\n[Iter {self.iteration}] No valid objectives", flush=True)
 
-        # 筛选有目标值的个体
+        # Filter individuals with objective values.
         codebase = [ind for ind in self.codebase if "obj" in ind]
         if not codebase:
             logging.error("No individuals with objectives in codebase!")
             return
 
-        # 找到当前代的最优解
+        # Find the optimal solution for the current generation.
         objs = [individual["obj"] for individual in codebase]
         best_obj, best_sample_idx = min(objs), np.argmin(np.array(objs))
         current_gen_best = codebase[best_sample_idx]
 
-        # 记录当前代最优解
+        # Record the optimal solution for the current generation.
         gen_best_dir = os.path.join(self.root_dir, "generation_best")
         os.makedirs(gen_best_dir, exist_ok=True)
         with open(os.path.join(gen_best_dir, f"gen_{self.iteration}_best_code.py"), 'w', encoding='utf-8', errors='replace') as f:
@@ -475,21 +475,21 @@ class ELE:
         with open(os.path.join(gen_best_dir, f"gen_{self.iteration}_curve.txt"), 'w', encoding='utf-8', errors='replace') as f:
             f.write(current_gen_best["curve"])
 
-        # 更新全局最优解
+        # Update the global optimal solution.
         if self.best_obj_overall is None or best_obj < self.best_obj_overall:
             self.best_obj_overall = best_obj
             self.best_code_overall = current_gen_best["code"]
             self.best_code_path_overall = current_gen_best["code_path"]
 
-        # 更新精英个体
+        # Update elite individuals.
         if self.elitist is None or best_obj < self.elitist["obj"]:
             self.elitist = current_gen_best
             logging.info(f"Iteration {self.iteration}: Elitist: {self.elitist['obj']}")
 
-        # 保存当前代码库
+        # Save the current code repository.
         self.save_codebase(codebase)
 
-        # 保存全局最优解
+        # Save the global optimal solution.
         base_dir = os.path.join(self.root_dir, "best")
         os.makedirs(base_dir, exist_ok=True)
         with open(os.path.join(base_dir, "best_code.py"), 'w', encoding='utf-8', errors='replace') as f:

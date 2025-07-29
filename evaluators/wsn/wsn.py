@@ -45,7 +45,6 @@ class Data_Algorithm:
         self.dim = data_net.num_cn * 3
         self.ub = np.tile([50, 50, 30], data_net.num_cn)
         self.lb = np.zeros(self.dim)
-        # --- 新增 ---: 将rg相关的参数放入算法数据类
         self.S = 2.5  # Initial value for rg
 
 
@@ -236,10 +235,6 @@ if __name__ == '__main__':
         print("Error: 'sn_pos.npy' not found. Please run 'generate_sn_pos.py' first.")
     else:
         evaluator = NetworkEvaluation(sn_pos_file='sn_pos.npy')
-
-        # 运行评估/优化过程
-        # 我们将 pso_inspired_heuristic 函数作为优化策略传入
-        # 这个函数的签名完全符合您的要求
         convergence_curve = evaluator.evaluate(priority=pso_inspired_heuristic)
 
         final_score = convergence_curve[-1]
