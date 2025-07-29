@@ -1,5 +1,3 @@
-[*] Running ...
-[*] Dataset loaded: C:\Users\22973\Desktop\meevo-main\meevo/evaluators/tsp\dataset\train50_dataset.npy with 5 instances.
 [*] Instance 0: 15.481860629698911
 [*] Instance 1: 13.858211068326835
 [*] Instance 2: 15.859724906441237
