@@ -401,7 +401,7 @@ class ELE:
                 stdout=f,
                 stderr=subprocess.STDOUT,
                 encoding='utf-8',
-                errors='replace'  # 自动替换非法字符
+                errors='replace'
             )
 
         block_until_running(code["stdout_filepath"], log_status=True,
