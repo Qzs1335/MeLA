@@ -1,0 +1,16 @@
+C:\Users\22973\Desktop\meevo-main\meevo\evaluators\tsp\gpt.py:23: RuntimeWarning:
+
+divide by zero encountered in log10
+
+C:\Users\22973\Desktop\meevo-main\meevo\evaluators\tsp\gpt.py:28: RuntimeWarning:
+
+invalid value encountered in multiply
+
+[*] Instance 0: 18.212408492371527
+[*] Instance 1: 20.756033412632423
+[*] Instance 2: 18.434873581274864
+[*] Instance 3: 21.319799315392096
+[*] Instance 4: 21.80699065527899
+[*] Average:
+20.10602109138998
+[0m

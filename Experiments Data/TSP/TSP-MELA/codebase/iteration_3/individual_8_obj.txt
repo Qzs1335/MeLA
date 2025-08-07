@@ -1,0 +1,12 @@
+D:\Anaconda\Lib\site-packages\numpy\core\_methods.py:173: RuntimeWarning:
+
+invalid value encountered in subtract
+
+[*] Instance 0: 18.870458889261933
+[*] Instance 1: 21.160380911823854
+[*] Instance 2: 19.960578056680223
+[*] Instance 3: 21.686538834045173
+[*] Instance 4: 21.27822413275541
+[*] Average:
+20.59123616491332
+[0m

@@ -1,0 +1,8 @@
+No valid candidates found for failure: ValueError: Expected parameter probs (Tensor of shape (30, 50)) of distribution Categorical(probs: torch.Size([30, 50])) to satisfy the constraint Simplex(), but found invalid values:
+tensor([[nan, nan, nan,  ..., nan, nan, nan],
+[nan, nan, nan,  ..., nan, nan, nan],
+[nan, nan, nan,  ..., nan, nan, nan],
+...,
+[nan, nan, nan,  ..., nan, nan, nan],
+[nan, nan, nan,  ..., nan, nan, nan],
+[nan, nan, nan,  ..., nan, nan, nan]], dtype=torch.float64)

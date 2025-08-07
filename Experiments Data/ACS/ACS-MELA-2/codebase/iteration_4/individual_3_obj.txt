@@ -1,0 +1,58 @@
+[*] Running ACS optimization...
+[*] Training with 30 students
+C:\Users\22973\Desktop\meevo-main\meevo\evaluators\acs\gpt.py:24: RuntimeWarning:
+
+invalid value encountered in power
+
+[*] Trial 0: 6688.3125
+[*] Trial 1: 6688.3125
+[*] Trial 2: 6688.3125
+[*] Trial 3: 6688.3125
+[*] Trial 4: 6688.3125
+[*] Trial 5: 6688.3125
+[*] Trial 6: 6688.3125
+[*] Trial 7: 6688.3125
+[*] Trial 8: 6688.3125
+[*] Trial 9: 6688.3125
+[*] Trial 10: 6688.3125
+[*] Trial 11: 6688.3125
+[*] Trial 12: 6688.3125
+[*] Trial 13: 6688.3125
+[*] Trial 14: 6688.3125
+[*] Trial 15: 6688.3125
+[*] Trial 16: 6688.3125
+[*] Trial 17: 6688.3125
+[*] Trial 18: 6688.3125
+[*] Trial 19: 6688.3125
+[*] Trial 20: 6688.3125
+[*] Trial 21: 6688.3125
+[*] Trial 22: 6688.3125
+[*] Trial 23: 6688.3125
+[*] Trial 24: 6688.3125
+[*] Trial 25: 6688.3125
+[*] Trial 26: 6688.3125
+[*] Trial 27: 6688.3125
+[*] Trial 28: 6688.3125
+[*] Trial 29: 6688.3125
+[*] Trial 30: 6688.3125
+[*] Trial 31: 6688.3125
+[*] Trial 32: 6688.3125
+[*] Trial 33: 6688.3125
+[*] Trial 34: 6688.3125
+[*] Trial 35: 6688.3125
+[*] Trial 36: 6688.3125
+[*] Trial 37: 6688.3125
+[*] Trial 38: 6688.3125
+[*] Trial 39: 6688.3125
+[*] Trial 40: 6688.3125
+[*] Trial 41: 6688.3125
+[*] Trial 42: 6688.3125
+[*] Trial 43: 6688.3125
+[*] Trial 44: 6688.3125
+[*] Trial 45: 6688.3125
+[*] Trial 46: 6688.3125
+[*] Trial 47: 6688.3125
+[*] Trial 48: 6688.3125
+[*] Trial 49: 6688.3125
+[*] min objective value:
+6688.3125

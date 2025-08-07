@@ -1,0 +1,16 @@
+C:\Users\22973\Desktop\meevo-main\meevo\evaluators\tsp\gpt.py:28: RuntimeWarning:
+
+invalid value encountered in divide
+
+C:\Users\22973\Desktop\meevo-main\meevo\evaluators\tsp\gpt.py:31: RuntimeWarning:
+
+invalid value encountered in divide
+
+[*] Instance 0: 19.392679336673204
+[*] Instance 1: 21.261361078811063
+[*] Instance 2: 19.922175770008494
+[*] Instance 3: 21.41131493845602
+[*] Instance 4: 20.20646540017265
+[*] Average:
+20.438799304824286
+[0m

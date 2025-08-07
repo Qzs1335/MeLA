@@ -1,0 +1,12 @@
+C:\Users\22973\Desktop\meevo-main\meevo\evaluators\tsp\gpt.py:25: RuntimeWarning:
+
+divide by zero encountered in log
+
+[*] Instance 0: 6.256603539771665
+[*] Instance 1: 6.310963539015115
+[*] Instance 2: 7.154405708493786
+[*] Instance 3: 6.713460512651819
+[*] Instance 4: 6.577741870118759
+[*] Average:
+6.602635034010229
+[0m

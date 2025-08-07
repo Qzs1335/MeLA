@@ -1,0 +1,7 @@
+[*] Instance 0: 219
+[*] Instance 1: 221
+[*] Instance 2: 223
+[*] Instance 3: 226
+[*] Instance 4: 225
+[*] Average:
+222.8
