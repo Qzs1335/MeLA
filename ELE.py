@@ -532,9 +532,6 @@ class ELE:
         self.codebase = codebase
         self.next_gen()
 
-    def Nature_Evo(self):
-        pass
-
     def run(self):
         if all([not individual["exec_success"] for individual in self.codebase]):
                 raise RuntimeError(f"All individuals are invalid. Please check the stdout files in {os.getcwd()}.")
