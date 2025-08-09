@@ -14,13 +14,14 @@ The code generation format must strictly follow the example below:
     ...}}     
     ```python
     import numpy as np 
-    def heuristics_v1(Positions, Best_pos, Best_score, rg):
+    def heuristics_v1(* The same as the sample code input *):
         * The rest remains unchanged. *
         #EVOLVE-START
         * Your optimized code *
         #EVOLVE-END       
         return Positions
-    ```   
+    ```  
+Do not import other libraries 
     '''
     return prompt
 
@@ -34,7 +35,7 @@ The code generation format must strictly follow the example below:
     ...}   
     ```python
     import numpy as np 
-    def heuristics_v1(Positions, Best_pos, Best_score, rg):
+    def heuristics_v1(* The same as the sample code input *):
         * The rest remains unchanged. *
         #EVOLVE-START
         * Your optimized code *
