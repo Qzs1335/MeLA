@@ -16,23 +16,6 @@ pop_size=10
 max_fe=50  
 timeout=300
 
-README
-Usage Instructions
-1. PyCharm Setup
-•
-Ensure PyCharm is installed and configured.
-
-2. Script Parameters Configuration
-In main.py, set the following ​Script Parameters​ (example for the ​ACS​ problem):
-
-llm_client=openai  
-llm_client.api_key="Your_API_Key"  
-problem=acs  
-init_pop_size=20  
-pop_size=10  
-max_fe=50  
-timeout=300
-
 3. Adding a New Problem
 When creating a new problem:
 
